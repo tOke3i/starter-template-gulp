@@ -4,6 +4,7 @@ My starter template with Gulp
 Install:
 
 git clone git@github.com:tOke3i/starter-template-gulp.git
+
  Then in project folder open terminal and write: npm i.
 
 Usage:
