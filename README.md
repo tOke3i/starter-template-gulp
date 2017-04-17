@@ -17,16 +17,6 @@ ________________________________________________________________________________
 Development and tests(no minifies) build:
 gulp dev-build (generates folder 'build' in the root foolder of you project)
 
-Парадигма
-
-BEM class naming (block__element--modificator).
-
-Все файлики по папкам: js, fonts, img, sass (переменные, глобальная стилизация, стили блоков и проч.).
-Диспетчер подключений стилей - app/sass/style.scss. Все указанные там файлы, компайлятся в один итоговый css/style.css.
-html можно собирать из кусков (базовые хедер/футер уже лежат в 'app/html/layout' и подключены к стартовой страничке).
-Для стилей: CSS линтер у меня csscomb; минификатор/оптимизатор - csso (вместо clean-css).
-Обновить package.json и все зависимости можно поставив апдейтер: npm install -g npm-check-updates.
-Назначение папок
 
 build/  			There is you project builds (after `gulp production`)
 dev-build/  		There is you project builds (after `dev-build`)
