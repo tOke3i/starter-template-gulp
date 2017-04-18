@@ -21,19 +21,19 @@ Development and tests(no minifies) build:
 gulp dev-build (generates folder 'build' in the root foolder of you project)
 
 
-build/  			There is you project builds (after `gulp production`)
+build/                    There is you project builds (after `gulp production`)
 
-dev-build/  		There is you project builds (after `dev-build`)
+dev-build/  	             There is you project builds (after `dev-build`)
 
-app/        		Source folder (livereload works from there)
+app/        	             Source folder (livereload works from there)
 
-app/fonts/  		Projects fonts ( 'build/fonts' or 'dev-build/font' it depends of your task)
+app/fonts/  		            Projects fonts ( 'build/fonts' or 'dev-build/font' it depends of your task)
 
-app/img/    		Images of the project
+app/img/    		            Images of the project
 
-app/js/     		Global js-files)
+app/js/     		            Global js-files)
 
-app/sass/   		Styles: @include here all you scss files 'style.scss'!
+app/sass/   		            Styles: @include here all you scss files 'style.scss'!
 
-app/index.html      Main page ('app/html/index.html' )
+app/index.html            Main page ('app/html/index.html' )
 
